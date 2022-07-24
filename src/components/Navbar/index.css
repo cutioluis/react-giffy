@@ -1,0 +1,16 @@
+.container {
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form-control-nav {
+  height: 50px;
+  padding-left:  20px;
+  width: 100%;
+}

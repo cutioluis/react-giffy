@@ -1,0 +1,37 @@
+.sectionGifs-container {
+  margin: 3rem 0;
+}
+
+.gifnav-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gifs-container {
+  display: flex;
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+.contaienr-gifs-md {
+  position: absolute;
+  display: none;
+}
+
+.gifs-md {
+  object-fit: cover;
+  margin: 0 0.3rem;
+  border-radius: 0.5rem;
+  width: 200px;
+  height: 200px;
+}
+
+.gifs-md-icons {
+  top: -30px;
+  left: 20px;
+  position: relative;
+}
+
+.gifs-md:hover {
+  cursor: pointer;
+}
